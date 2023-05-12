@@ -1,19 +1,24 @@
+/* targets the highest-level "parent" document tree */
 :root {
     background: #e4d560;
 }
 
+/* changes the font of the h tags */
 h1, h5 {
     font-family: monospace, serif;
 }
 
+/* changes the font of the p tags */
 p {
     font-family: monospace, serif;
 }
 
+/* gives the links an underline  */
 a:hover {
     text-decoration: underline;
 }
 
+/* changes the img properties */
 img {
     width: 600px;
     height: 600px;
@@ -22,6 +27,7 @@ img {
     background: royalblue;
 }
 
+/* changes the bootstrap class properties */
 .button {
     background-color: royalblue; 
     border: none;
@@ -34,16 +40,19 @@ img {
     font-size: 16px;
   }
 
+/* changes the custom class properties */
 #hp-p {
     margin: 5px;
     font-family: monospace, serif;
     text-align: center;
 }
 
+/* changes the custom class properties */
 .bgColor {
     background: #e4d560;
 }
 
+/* changes the bootstrap class properties */
 .container {
     color: royalblue;
     padding: 5%;
@@ -53,6 +62,7 @@ img {
     gap: 10px;
 }
 
+/* changes the bootstrap class properties */
 .container-sm {
     color: royalblue;
     padding: 5%;
@@ -62,10 +72,12 @@ img {
     gap: 10px;
 }
 
+/* changes the custom class properties */
 .hp-img {
     border:  solid 5px;
 }
 
+/* changes the custom class properties */
 #hp-break {
     border-bottom: solid 5px;
     padding: 10px;
