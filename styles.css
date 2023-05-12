@@ -2,16 +2,13 @@
     background: #e4d560;
 }
 
-h1 {
+h1, h5 {
     font-family: monospace, serif;
 }
 
-#hp-p {
-    margin: 5px;
+p {
     font-family: monospace, serif;
-    text-align: center;
 }
-
 
 a:hover {
     text-decoration: underline;
@@ -22,6 +19,7 @@ img {
     height: 600px;
     object-fit: cover;
     border-radius: 25px;
+    background: royalblue;
 }
 
 .button {
@@ -36,6 +34,12 @@ img {
     font-size: 16px;
   }
 
+#hp-p {
+    margin: 5px;
+    font-family: monospace, serif;
+    text-align: center;
+}
+
 .bgColor {
     background: #e4d560;
 }
@@ -49,7 +53,7 @@ img {
     gap: 10px;
 }
 
-#hp-img {
+.hp-img {
     border:  solid 5px;
 }
 
